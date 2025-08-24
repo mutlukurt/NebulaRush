@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <title>NEBULA RUSH - Conquer the Nebula. Enjoy the Rush.</title>
+    <meta name="description" content="A fast, futuristic mobile game with cinematic action, daily rewards, and zero waiting. Download NEBULA RUSH now and conquer the galaxy.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="NEBULA RUSH - Conquer the Nebula. Enjoy the Rush.">
+    <meta property="og:description" content="A fast, futuristic mobile game with cinematic action, daily rewards, and zero waiting.">
+    <meta property="og:image" content="/assets/og-image.png">
+    <meta property="og:url" content="https://nebularush.game">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NEBULA RUSH - Conquer the Nebula. Enjoy the Rush.">
+    <meta name="twitter:description" content="A fast, futuristic mobile game with cinematic action, daily rewards, and zero waiting.">
+    <meta name="twitter:image" content="/assets/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <div class="nav-logo">
+                    <div class="logo-chip">
+                        <span class="logo-text">NR</span>
+                    </div>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#trailer" class="nav-link">Trailer</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="btn btn-ghost" onclick="openContactModal()">Contact us</button>
+                    <a href="#download" class="btn btn-primary">Download</a>
+                </div>
+                
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="hero-particles">
+                    <div class="particle particle-1"></div>
+                    <div class="particle particle-2"></div>
+                    <div class="particle particle-3"></div>
+                    <div class="particle particle-4"></div>
+                    <div class="particle particle-5"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="hero-title-line">Conquer the</span>
+                            <span class="hero-title-line">Nebula. Enjoy the rush.</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            A fast, futuristic mobile game with cinematic action, daily rewards, and zero waiting.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#download" class="btn btn-primary btn-large">Get the game</a>
+                            <a href="#trailer" class="btn-link">Watch how it plays</a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="game-card">
+                            <div class="card-bg"></div>
+                            <div class="card-content">
+                                <div class="player-info">
+                                    <div class="player-avatar"></div>
+                                    <div class="player-details">
+                                        <div class="player-name">NOVA_PILOT</div>
+                                        <div class="player-rank">Elite Rank • Level 47</div>
+                                    </div>
+                                </div>
+                                <div class="energy-orbs">
+                                    <div class="orb orb-1"></div>
+                                    <div class="orb orb-2"></div>
+                                    <div class="orb orb-3"></div>
+                                </div>
+                                <div class="neon-ring"></div>
+                            </div>
+                        </div>
+                        <div class="floating-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured On Section -->
+        <section class="featured" id="featured">
+            <div class="container">
+                <div class="featured-band">
+                    <span class="featured-label">Featured on</span>
+                    <div class="featured-logos">
+                        <div class="logo-item">ArcadeNow</div>
+                        <div class="logo-item">GameScope</div>
+                        <div class="logo-item">Flycast</div>
+                        <div class="logo-item">MetaPlay</div>
+                        <div class="logo-item">Orbital</div>
+                    </div>
+                </div>
+                
+                <div class="stats-pills">
+                    <div class="stat-pill">
+                        <span class="stat-number">10M+</span>
+                        <span class="stat-label">Downloads</span>
+                    </div>
+                    <div class="stat-pill">
+                        <span class="stat-number">4.9★</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                    <div class="stat-pill">
+                        <span class="stat-number">Global</span>
+                        <span class="stat-label">PvP</span>
+                    </div>
+                    <div class="stat-pill">
+                        <span class="stat-number">Zero Ads</span>
+                        <span class="stat-label">in Story Mode</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What we provide?</h2>
+                </div>
+                
+                <div class="features-track">
+                    <div class="feature-bubble" data-aos="fade-up">
+                        <div class="bubble-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="bubble-title">Instant Action</h3>
+                        <p class="bubble-desc">Jump into battles in under 3s.</p>
+                    </div>
+                    
+                    <div class="feature-bubble" data-aos="fade-up" data-aos-delay="100">
+                        <div class="bubble-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="m22 21-3-3m0 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="bubble-title">Co-op Raids</h3>
+                        <p class="bubble-desc">Team up for weekly boss events.</p>
+                    </div>
+                    
+                    <div class="feature-bubble" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bubble-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.27L5.82 21L7 14L2 9L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="bubble-title">PvP Arena</h3>
+                        <p class="bubble-desc">Ranked matches with skill-based pairing.</p>
+                    </div>
+                    
+                    <div class="feature-bubble" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bubble-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/>
+                                <line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="bubble-title">Mobile App Hub</h3>
+                        <p class="bubble-desc">Skins, events, cloud sync.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wave Divider -->
+        <div class="wave-divider">
+            <svg viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,0 C300,60 600,60 900,30 C1050,10 1150,50 1200,30 L1200,120 L0,120 Z" fill="url(#waveGradient)"/>
+                <defs>
+                    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#6A5AF9;stop-opacity:0.1"/>
+                        <stop offset="50%" style="stop-color:#7AE582;stop-opacity:0.1"/>
+                        <stop offset="100%" style="stop-color:#7CC7FF;stop-opacity:0.1"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <!-- App Section -->
+        <section class="app-section" id="app">
+            <div class="container">
+                <div class="app-content">
+                    <div class="app-text">
+                        <h2 class="section-title">Play anywhere, track everything</h2>
+                        <p class="section-description">
+                            A friendly companion app to manage squads, claim rewards, tweak loadouts, and view match stats.
+                        </p>
+                        <div class="store-badges">
+                            <a href="#" class="store-badge" aria-label="Download on Google Play">
+                                <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="135" height="40" rx="5" fill="#000"/>
+                                    <text x="67.5" y="25" text-anchor="middle" fill="white" font-size="12" font-family="Arial">Google Play</text>
+                                </svg>
+                            </a>
+                            <a href="#" class="store-badge" aria-label="Download on App Store">
+                                <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="135" height="40" rx="5" fill="#000"/>
+                                    <text x="67.5" y="25" text-anchor="middle" fill="white" font-size="12" font-family="Arial">App Store</text>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="app-visual">
+                        <div class="phone-mockup">
+                            <div class="phone-frame">
+                                <div class="phone-screen">
+                                    <div class="app-interface">
+                                        <div class="interface-header">
+                                            <div class="status-bar"></div>
+                                            <div class="app-title">NEBULA RUSH</div>
+                                        </div>
+                                        <div class="interface-content">
+                                            <div class="stat-card">
+                                                <div class="stat-label">XP Progress</div>
+                                                <div class="stat-bar">
+                                                    <div class="stat-fill" style="width: 75%"></div>
+                                                </div>
+                                            </div>
+                                            <div class="stat-card">
+                                                <div class="stat-label">Credits</div>
+                                                <div class="stat-value">24,750</div>
+                                            </div>
+                                            <div class="stat-card">
+                                                <div class="stat-label">Gems</div>
+                                                <div class="stat-value">187</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dark Spotlight Panel -->
+        <section class="spotlight" id="spotlight">
+            <div class="spotlight-bg">
+                <div class="spotlight-particles">
+                    <div class="star star-1"></div>
+                    <div class="star star-2"></div>
+                    <div class="star star-3"></div>
+                    <div class="star star-4"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="spotlight-content">
+                    <div class="spotlight-visual">
+                        <div class="player-cards">
+                            <div class="player-card card-starter">
+                                <div class="card-title">Starter</div>
+                                <div class="card-tier">Tier I</div>
+                            </div>
+                            <div class="player-card card-elite">
+                                <div class="card-title">Elite</div>
+                                <div class="card-tier">Tier II</div>
+                            </div>
+                            <div class="player-card card-legendary">
+                                <div class="card-title">Legendary</div>
+                                <div class="card-tier">Tier III</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="spotlight-text">
+                        <h2 class="spotlight-title">Forge your legend</h2>
+                        <p class="spotlight-description">
+                            Customize your pilot, unlock skins, craft abilities. Your style, your meta.
+                        </p>
+                        <div class="spotlight-actions">
+                            <a href="#download" class="btn btn-primary">Get the game</a>
+                            <a href="#how-it-works" class="btn-link btn-link-light">How it works</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trailer Section -->
+        <section class="trailer" id="trailer">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Watch the Action</h2>
+                    <p class="section-description">
+                        Experience the thrill of NEBULA RUSH in our official gameplay trailer.
+                    </p>
+                </div>
+                
+                <div class="trailer-content">
+                    <div class="video-container">
+                        <div class="video-placeholder">
+                            <div class="play-button">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 5v14l11-7z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="video-overlay">
+                                <h3>Official Gameplay Trailer</h3>
+                                <p>2:30 minutes of pure action</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Choose Your Adventure</h2>
+                    <p class="section-description">
+                        Free to play with optional premium content to enhance your experience.
+                    </p>
+                </div>
+                
+                <div class="pricing-cards">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Free Explorer</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">$0</span>
+                                <span class="price-period">Forever</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Full story campaign</li>
+                            <li>PvP arena access</li>
+                            <li>Basic customization</li>
+                            <li>Weekly challenges</li>
+                        </ul>
+                        <a href="#download" class="btn btn-ghost btn-full">Download Free</a>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Elite Pilot</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">$9.99</span>
+                                <span class="price-period">One-time</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Everything in Free</li>
+                            <li>Premium ship skins</li>
+                            <li>Exclusive pilot avatars</li>
+                            <li>Priority matchmaking</li>
+                            <li>Bonus XP rewards</li>
+                        </ul>
+                        <a href="#download" class="btn btn-primary btn-full">Upgrade Now</a>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Legendary</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">$19.99</span>
+                                <span class="price-period">One-time</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Everything in Elite</li>
+                            <li>Legendary ship designs</li>
+                            <li>Custom ability effects</li>
+                            <li>VIP support access</li>
+                            <li>Early access to updates</li>
+                        </ul>
+                        <a href="#download" class="btn btn-ghost btn-full">Go Legendary</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About NEBULA RUSH</h2>
+                        <p class="section-description">
+                            Born from a passion for fast-paced action and fair competition, NEBULA RUSH represents the next evolution in mobile gaming.
+                        </p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">2025</div>
+                                <div class="stat-label">Launch Year</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Team Members</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">3</div>
+                                <div class="stat-label">Years in Development</div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-mission">
+                            <h3>Our Mission</h3>
+                            <p>
+                                To create the most engaging, fair, and visually stunning mobile gaming experience. 
+                                No pay-to-win mechanics, no intrusive ads in story mode, just pure skill-based fun.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual">
+                        <div class="team-grid">
+                            <div class="team-member">
+                                <div class="member-avatar"></div>
+                                <div class="member-info">
+                                    <div class="member-name">Alex Chen</div>
+                                    <div class="member-role">Game Director</div>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-avatar"></div>
+                                <div class="member-info">
+                                    <div class="member-name">Sarah Nova</div>
+                                    <div class="member-role">Lead Designer</div>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-avatar"></div>
+                                <div class="member-info">
+                                    <div class="member-name">Max Stellar</div>
+                                    <div class="member-role">Tech Lead</div>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <div class="member-avatar"></div>
+                                <div class="member-info">
+                                    <div class="member-name">Luna Cross</div>
+                                    <div class="member-role">Art Director</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What our players say</h2>
+                </div>
+                
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <div class="testimonials-track" id="testimonials-track">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">
+                                    "Tight controls and clean UI. Boss raids are peak mobile fun."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <div class="author-name">Sora the Watcher</div>
+                                        <div class="author-date">November 2025</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">
+                                    "I love the ranking climb. Because there's no pay-to-win, every duel feels fair."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <div class="author-name">Y. Blackmoon</div>
+                                        <div class="author-date">November 2025</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">
+                                    "Best arena on mobile. The feedback and haptics keep me hooked."
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="author-info">
+                                        <div class="author-name">J. Nova</div>
+                                        <div class="author-date">December 2025</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <button class="slider-btn slider-prev" id="slider-prev" aria-label="Previous testimonial">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="slider-btn slider-next" id="slider-next" aria-label="Next testimonial">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <div class="slider-dots" id="slider-dots">
+                        <button class="dot active" data-slide="0" aria-label="Go to testimonial 1"></button>
+                        <button class="dot" data-slide="1" aria-label="Go to testimonial 2"></button>
+                        <button class="dot" data-slide="2" aria-label="Go to testimonial 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-chip">
+                            <span class="logo-text">NR</span>
+                        </div>
+                    </div>
+                    <p class="footer-tagline">
+                        NEBULA RUSH — fast, fair, and beautiful.
+                    </p>
+                </div>
+                
+                <nav class="footer-nav" role="navigation" aria-label="Footer navigation">
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#download" class="footer-link">Get game</a></li>
+                        <li><a href="#pricing" class="footer-link">Pricing</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="#terms" class="legal-link">Terms</a>
+                    <span class="legal-separator">•</span>
+                    <a href="#privacy" class="legal-link">Privacy</a>
+                    <span class="legal-separator">•</span>
+                    <span class="copyright">© 2025 Nebula Rush.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal-overlay" id="contact-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Get in touch</h3>
+                <button class="modal-close" onclick="closeContactModal()" aria-label="Close modal">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"/>
+                        <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="contact-name" class="form-label">Name</label>
+                    <input type="text" id="contact-name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email" class="form-label">Email</label>
+                    <input type="email" id="contact-email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-message" class="form-label">Message</label>
+                    <textarea id="contact-message" name="message" class="form-textarea" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Send message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div class="toast" id="success-toast">
+        <div class="toast-content">
+            <svg class="toast-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <span class="toast-message">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>
