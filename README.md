@@ -1,5 +1,7 @@
 # NEBULA RUSH - Landing Page
 
+🚀 **[Live Demo](https://mutlukurt.github.io/Nebula-Rush/)**
+
 A production-ready, single-page landing page for the fictional mobile game "NEBULA RUSH". Built with clean, hand-crafted HTML, CSS, and JavaScript without any external frameworks.
 
 ## 🚀 Features
